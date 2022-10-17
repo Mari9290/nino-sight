@@ -1,0 +1,56 @@
+body {
+  background-color: #F5EFE6;
+}
+
+.main {
+  background-color: #B4CDE6;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} 
+
+.container-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1, h2, h4 {
+  color: #3C2317;
+}
+
+.position {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.text {
+  text-align: center;
+}
+
+.btn {
+  background-color: #628E90;
+  color: #F5EFE6;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+@media all and (max-width: 500px) {
+.fotoSight {
+  width: 80%;
+  height: 80%;
+}
+
+h1 {
+  font-size: 22px;
+}
+}
